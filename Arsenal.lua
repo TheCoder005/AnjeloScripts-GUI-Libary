@@ -3,7 +3,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     
     --tabs
     local Main = Window:NewTab("Main")
-    local MainSection = Main:NewSection("Main")
     local AimbotSettings = Main:NewSection("Aimbot Settings")
     local ESPSetings = Main:NewSection("ESP Settings")
     local Player = Window:NewTab("Player")
