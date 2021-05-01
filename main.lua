@@ -1,5 +1,5 @@
 -- hi
-_BLVersion = "1.2"
+_BLVersion = "0.1"
 _BLChangelog = [[
     v1.1:
         Added keybinds, sliders, and you have asked, so you got dropdowns too!
