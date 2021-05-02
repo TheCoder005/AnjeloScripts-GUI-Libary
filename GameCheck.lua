@@ -1,10 +1,10 @@
-Arsunal
+--Arsunal
 if game.PlaceId == 286090429 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCoder005/AnjeloScripts-Hub/TheCoder005-Game-Scripts/Arsenal.lua"))()
-//SL2
+--SL2
 elseif game.PlaceId == 301549746 then
      local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCoder005/AnjeloScripts-Hub/TheCoder005-Game-Scripts/CB.lua"))()
-//CB    
+--CB    
 elseif game.PlaceId == 301549746 then
      local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCoder005/AnjeloScripts-Hub/TheCoder005-Game-Scripts/CB.lua"))()
 end
