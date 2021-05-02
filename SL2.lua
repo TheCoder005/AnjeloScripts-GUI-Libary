@@ -17,7 +17,7 @@ MainSction:NewToggle("AutoFarm", "Turns on auto farm still have not coded it to 
           shared.Settings = {
           CanGetScroll = true,
           CanRankUp    = false,
-          AllowBoss    = true,
+          AllowBoss    = false,
           PlayerHeight = -15, -- If u got a free exploit, change this to above -20
           TweenSpeed = 1,
           }
