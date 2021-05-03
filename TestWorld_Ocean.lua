@@ -1,4 +1,4 @@
-local Theme = "LightTheme"
+local Theme = "Ocean"
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("TITLE", Theme)
 local Tab = Window:NewTab("TabName")
