@@ -10,6 +10,28 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     local Settings = Window:NewTab("Settings")
     local SettingsSection = Settings:NewSection("Settings")
     --MainSection
+    
+            getgenv().Options = {
+            Enabled = true,
+            TeamCheck = true,
+            Triggerbot = false,
+            Smoothness = true,
+            AimPart = "Head",
+            FOV = 150
+        }
+    
+    AimbotSettings:NewSlider("FOV", "Changes the size of the ring", 500, 1, function(s) -- 500 (MaxValue) | 0 (MinValue)
+            getgenv().Options = {
+                    Enabled = true,
+                    TeamCheck = true,
+                    Triggerbot = false,
+                    Smoothness = true,
+                    AimPart = "Head",
+                    FOV = s
+                } 
+        end)
+        
+    
     AimbotSettings:NewButton("Aimbot", "Injects Aimbot", function()
         print("Clicked")
         
@@ -25,16 +47,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
         
         local Down = false
         local Inset = GuiService:GetGuiInset()
-        
-        --// Options \\--
-        getgenv().Options = {
-            Enabled = true,
-            TeamCheck = true,
-            Triggerbot = false,
-            Smoothness = true,
-            AimPart = "Head",
-            FOV = 150
-        }
         
         --// Functions \\--
         local gc = function()
