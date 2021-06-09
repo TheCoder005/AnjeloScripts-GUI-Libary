@@ -248,6 +248,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
     
     -- Settings
     
-    SettingsSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+    SettingsSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightShift, function()
     	Library:ToggleUI()
     end)
