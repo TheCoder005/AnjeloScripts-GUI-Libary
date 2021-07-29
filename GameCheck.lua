@@ -19,6 +19,9 @@ elseif game.PlaceId == 6010979912 then
      local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCoder005/AnjeloScripts-Hub/TheCoder005-Game-Scripts/Death%20Zone.lua"))()
 elseif game.PlaceId == 6010981786 then
      local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCoder005/AnjeloScripts-Hub/TheCoder005-Game-Scripts/Death%20Zone.lua"))()
+--TestWorld
+elseif game.PlaceId == 6571697013 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCoder005/AnjeloScripts-Hub/TheCoder005-Game-Scripts/Death%20Zone.lua"))()
 end
 
 
