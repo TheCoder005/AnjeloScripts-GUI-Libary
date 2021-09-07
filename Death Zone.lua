@@ -1,4 +1,4 @@
-local XanaxUILib = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheCoder005/TestingHub/main/hubmain"))()
+local XanaxUILib = loadstring(game:HttpGet("http://10.0.0.179/ScriptHub/index.txt"))()
 local Ui = XanaxUILib:CreateWindow("Example UI7")
 local Aimbot = Ui:CreateSection("Aimbot")
 
@@ -278,9 +278,3 @@ RunService:BindToRenderStep("Universal", 500, function()
        end
    end
 end)
-
-
-
-
-
-
